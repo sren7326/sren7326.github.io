@@ -1,0 +1,90 @@
+/*
+color scheme
+4A5D89: Dark Blue
+829BC9: Light Blue
+CED9ED: light light blue
+72726D: Nickel
+433F39: Black Olive
+2F3130: Jet
+*/
+
+*{
+	color: #72726D;
+	font-family: 'Courier';
+	background: #2F3130;
+	font-size: 26px;
+	text-align: center;
+}
+
+.big-font{
+	font-size: 80px;
+}
+
+p{
+	color: #829BC9;
+	text-align: center;
+}
+
+h1{
+	font-family: 'Georgia';
+	color: white;
+	text-align: center;
+	font-size: 60px;
+}
+
+h2{
+	color: darkgray;
+	text-align: center;
+	font-size: 30px;
+}
+
+#main-nav li {
+	display: inline-block;
+	font-size: 20px;
+	margin: 40px;
+	background: #829BC9;
+}
+
+#main-nav {
+	position: sticky;
+	top: 0px;
+	text-align: center;
+	background: #829BC9;
+	padding:0px;
+	margin-top: 0px;
+}
+
+#active-nav{
+	background: #829BC9;
+	color: white;
+	text-decoration: none;
+}
+
+a{
+	background: #829BC9;
+	color: #433F39;
+	text-decoration: none;
+}
+
+a:hover{
+	background: #829BC9;
+	color: gray;
+	text-decoration: none;
+}
+
+.link{
+	background: #2F3130; 
+	color: #CED9ED;
+	font-weight: bold;
+}
+
+.link:hover{
+	background: #2F3130;
+	color: white;
+	text-decoration: none;
+}
+
+.hasmargin{
+	margin-left: 120px;
+	margin-right: 120px;
+}
