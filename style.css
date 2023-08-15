@@ -16,26 +16,62 @@ CED9ED: light light blue
 	text-align: center;
 }
 
-.big-font{
-	font-size: 90px;
-}
-
 p{
 	color: #829BC9;
-	text-align: center;
 }
 
 h1{
 	font-family: 'Georgia';
 	color: white;
-	text-align: center;
 	font-size: 60px;
 }
 
-h2{
-	color: darkgray;
-	text-align: center;
-	font-size: 30px;
+a{
+	background: #829BC9;
+	color: #433F39;
+	text-decoration: none;
+}
+
+a:hover{
+	background: #829BC9;
+	color: #CED9ED;
+	text-decoration: none;
+}
+
+.big-font{
+	font-size: 90px;
+}
+
+.card {
+	background: lightgray;
+	border-radius: 25px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,1);
+}
+
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,1);
+}
+
+.container {
+	border-radius: 25px;
+	background: lightgray;
+	padding: 2px 16px;
+}
+
+.card .container p{
+	background: lightgray;
+	color: #4A5D89;
+}
+.card .container h2 {
+    background: lightgray;
+	color: #829BC9;
+}
+.card .container a{
+	background: lightgray;
+	color: #433F39;
+}
+.card .container a:hover{
+	color: #72726D;
 }
 
 #main-nav li {
@@ -46,6 +82,7 @@ h2{
 }
 
 #main-nav {
+	z-index: 1;
 	position: sticky;
 	top: 0px;
 	text-align: center;
@@ -57,18 +94,6 @@ h2{
 #active-nav{
 	background: #829BC9;
 	color: white;
-	text-decoration: none;
-}
-
-a{
-	background: #829BC9;
-	color: #433F39;
-	text-decoration: none;
-}
-
-a:hover{
-	background: #829BC9;
-	color: gray;
 	text-decoration: none;
 }
 
